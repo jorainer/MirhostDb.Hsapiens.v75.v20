@@ -1,0 +1,16 @@
+Package: MirhostDb.Hsapiens.v75.v20
+Title: homo_sapiens miRNA host gene definitions
+Description: Contains miRNA host gene definitions for all miRNAs in miRBase v20
+Version: 0.99.0
+Author: J Rainer
+Maintainer: Johannes Rainer <johannes.rainer@eurac.edu>
+Depends: mirhostgenes (>= 0.3.0)
+Imports: RSQLite, DBI
+License: Artistic-2.0
+organism: Homo_sapiens
+species: Homo_sapiens
+provider: miRBase, Ensembl
+provider_version: miRBase v20, Ensembl 75
+release_date: miRBase release date: 2013-10-1
+resource_url: http://www.mirbase.org, http://www.ensembl.org
+biocViews: AnnotationData, MirhostDb, Homo_sapiens
